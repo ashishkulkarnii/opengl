@@ -20,7 +20,7 @@ Here, I'm using the chaos game approach to generate the Sierpinski Triangle:
 4. The plotted point is used as the randomly chosen from step 1, and the consequent steps are repeated for several iterations.
 
 I ran the algorithm for 50,000 iterations, and this is how the output looks:\
-<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sierpinski-triangle/images/sierpinski-triangle.jpg" alt = "sierpinski-triangle.jpg">
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sierpinski-triangle/images/sierpinski-triangle.jpg" alt = "sierpinski-triangle.jpg" height = "300">
 
 ### Convex Hull Using Graham's Scan
 
@@ -34,7 +34,7 @@ In my case, I created a function to randomly plot _n_ points.
 4. Finally, we join the last point to the initial point and we have ourselves a convex hull.
 
 This is how the output looks for 20 randomly generated points:\
-<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/convex-hull/images/convex-hull.jpg" alt = "convex-hull.jpg">
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/convex-hull/images/convex-hull.jpg" alt = "convex-hull.jpg" height = "300">
 
 ## 3-d Projects
 
@@ -57,10 +57,10 @@ Triangles are the most fundamental 2-d geometric object, and can be used to buil
 In this project, I used triangles to build a sphere.
 
 This is how the sphere looks:\
-<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sphere/images/sphere.jpg" alt = "sphere.jpg">
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sphere/images/sphere.jpg" alt = "sphere.jpg" height = "300">
 
 Here's how the sphere looks from the inside:\
-<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sphere/images/sphere-inside.jpg" alt = "sphere-inside.jpg">
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sphere/images/sphere-inside.jpg" alt = "sphere-inside.jpg" height = "300">
 
 ### Sphere Collisions
 
