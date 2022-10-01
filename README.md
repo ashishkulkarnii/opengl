@@ -68,4 +68,4 @@ I contained three rigid spheres inside of a bigger, rigid wire sphere.
 Each sphere is given a random velocity in a random direction, and my code handles all collisions between the bouncing spheres as well as between the spheres and the spherical container.
 
 Here's how the bouncing spheres look:\
-<video height = "500" autoplay muted><source src="https://github.com/ashishkulkarnii/opengl/blob/main/physics/images/2022-10-01-12-53-07.mp4" type="video/mp4"></video>
+https://github.com/ashishkulkarnii/opengl/blob/fa7b80a266b0d2fcb5e4433d624fe5c1096cd27f/physics/images/2022-10-01-12-53-07.mp4
