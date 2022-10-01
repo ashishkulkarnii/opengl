@@ -9,7 +9,7 @@ To start working with OpenGL on Windows using Visual Studio, follow [this tutori
 
 ## 2-d projects
 
-### Sierpinski Triangle
+### [Sierpinski Triangle](https://github.com/ashishkulkarnii/opengl/tree/main/sierpinski-triangle)
 
 The Sierpinski Triangle is a triangular pattern that can be formed algorithmically.
 Here, I'm using the chaos game approach to generate the Sierpinski Triangle:
@@ -51,7 +51,7 @@ This is how the output looks for 20 randomly generated points:\
     </p>
 </details>
 
-### Sphere
+### [Sphere](https://github.com/ashishkulkarnii/opengl/tree/main/sphere)
 
 Triangles are the most fundamental 2-d geometric object, and can be used to build virtually any 3-d object.
 In this project, I used triangles to build a sphere.
@@ -62,7 +62,7 @@ This is how the sphere looks:\
 Here's how the sphere looks from the inside:\
 <img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sphere/images/sphere-inside.jpg" alt = "sphere-inside.jpg" height = "500">
 
-### Sphere Collisions
+### [Sphere Collisions](https://github.com/ashishkulkarnii/opengl/tree/main/physics)
 
 I contained three rigid spheres inside of a bigger, rigid wire sphere.
 Each sphere is given a random velocity in a random direction, and my code handles all collisions between the bouncing spheres as well as between the spheres and the spherical container.
