@@ -41,8 +41,8 @@ This is how the output looks for 20 randomly generated points:\
 <details>
     <summary>Camera Controls</summary>
     <p>
-        In all of these projects, the camera position can be adjusted using the following keys:\
-        `W` to move the camera forwards.\
+        In all of these projects, the camera position can be adjusted using the following keys:<br>
+        ```W``` to move the camera forwards.<br>
         `S` to move the camera backwards.\
         `A` to move the camera clockwise around subject.\
         `D` to move the camera counterclockwise around subject.\
