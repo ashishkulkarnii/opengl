@@ -20,7 +20,7 @@ Here, I'm using the chaos game approach to generate the Sierpinski Triangle:
 4. The plotted point is used as the randomly chosen from step 1, and the consequent steps are repeated for several iterations.
 
 I ran the algorithm for 50,000 iterations, and this is how the output looks:\
-<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sierpinkski-triangle/images/sierpinski-triangle.jpg" alt = "sierpinski-triangle.jpg">
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sierpinski-triangle/images/sierpinski-triangle.jpg" alt = "sierpinski-triangle.jpg">
 
 ### Convex Hull Using Graham's Scan
 
