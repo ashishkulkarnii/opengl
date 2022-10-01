@@ -39,7 +39,7 @@ This is how the output looks for 20 randomly generated points:\
 ## 3-d Projects
 
 <details>
-    <summary>Camera Controls</summary>
+    <summary><b>Camera Controls</b></summary>
     <p>
         In all of these projects, the camera position can be adjusted using the following keys:<br>
         <b>W</b> - to move the camera forwards.<br>
