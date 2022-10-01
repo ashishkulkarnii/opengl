@@ -20,7 +20,7 @@ Here, I'm using the chaos game approach to generate the Sierpinski Triangle:
 4. The plotted point is used as the randomly chosen from step 1, and the consequent steps are repeated for several iterations.
 
 I ran the algorithm for 50,000 iterations, and this is how the output looks:\
-<img src = "">sierpinski-triangle.jpg</img>
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sierpinkski-triangle/images/sierpinski-triangle.jpg" alt = "sierpinski-triangle.jpg">
 
 ### Convex Hull Using Graham's Scan
 
@@ -34,7 +34,7 @@ In my case, I created a function to randomly plot _n_ points.
 4. Finally, we join the last point to the initial point and we have ourselves a convex hull.
 
 This is how the output looks for 20 randomly generated points:\
-<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/convex-hull/images/convex-hull.jpg">convex-hull.jpg</img>
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/convex-hull/images/convex-hull.jpg" alt = "convex-hull.jpg">
 
 ## 3-d Projects
 
@@ -57,10 +57,10 @@ Triangles are the most fundamental 2-d geometric object, and can be used to buil
 In this project, I used triangles to build a sphere.
 
 This is how the sphere looks:\
-<img src = "">sphere.jpg</img>
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sphere/images/sphere.jpg" alt = "sphere.jpg">
 
 Here's how the sphere looks from the inside:\
-<img src = "">sphere-inside.jpg</img>
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sphere/images/sphere-inside.jpg" alt = "sphere-inside.jpg">
 
 ### Sphere Collisions
 
@@ -68,3 +68,4 @@ I contained three rigid spheres inside of a bigger, rigid wire sphere.
 Each sphere is given a random velocity in a random direction, and my code handles all collisions between the bouncing spheres as well as between the spheres and the spherical container.
 
 Here's how the bouncing spheres look:\
+https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/physics/images/x.mp4
