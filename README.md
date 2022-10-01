@@ -22,7 +22,7 @@ Here, I'm using the chaos game approach to generate the Sierpinski Triangle:
 I ran the algorithm for 50,000 iterations, and this is how the output looks:\
 <img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/sierpinski-triangle/images/sierpinski-triangle.jpg" alt = "sierpinski-triangle.jpg" height = "500">
 
-### Convex Hull Using Graham's Scan
+### [Convex Hull Using Graham's Scan](https://github.com/ashishkulkarnii/opengl/tree/main/convex-hull)
 
 The Graham's scan is a way of finding the convex hull of a set of coplanar points in *O*(_n_ log(_n_)) time.
 We start by having a collection of points.
