@@ -34,7 +34,7 @@ In my case, I created a function to randomly plot _n_ points.
 4. Finally, we join the last point to the initial point and we have ourselves a convex hull.
 
 This is how the output looks for 20 randomly generated points:\
-<img src = "">convex-hull.jpg</img>
+<img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/convex-hull/images/convex-hull.jpg">convex-hull.jpg</img>
 
 ## 3-d Projects
 
