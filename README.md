@@ -70,7 +70,7 @@ Each sphere is given a random velocity in a random direction, and my code handle
 Here's how the bouncing spheres look:\
 <img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/physics/images/physics.gif" alt = "physics.gif" height = "500">
 
-### Cursor Interactions
+### [Cursor Interactions](https://github.com/ashishkulkarnii/opengl/tree/main/cursor-interactions)
 
 Building upon the sphere collision setp (above), I decided to implement drag-and-drop using mouse cursor.
 This consisted of 3 steps:
