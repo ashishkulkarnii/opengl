@@ -72,7 +72,7 @@ Here's how the bouncing spheres look:\
 
 ### [Cursor Interactions](https://github.com/ashishkulkarnii/opengl/tree/main/cursor-interactions)
 
-Building upon the sphere collision setp (above), I decided to implement drag-and-drop using mouse cursor.
+Building upon the sphere collision setup (above), I decided to implement drag-and-drop using mouse cursor.
 This consisted of 3 steps:
 1. Identifying the selected object.
 2. Tracking the the cursor position.
