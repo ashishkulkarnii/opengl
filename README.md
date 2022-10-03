@@ -1,7 +1,7 @@
 # My OpenGL Projects
 
 This repository contains a few of the OpenGL projects I've worked on.
-It starts with basic 2-d projects, such as the Sierpenski triangle, or building a convex hull around points using Graham's scan algorithm, all the way up to implementing  elastic sphere collisions in 3-d space.
+It starts with basic 2-d projects, such as the Sierpinski triangle, or building a convex hull around points using Graham's scan algorithm, all the way up to implementing  elastic sphere collisions in 3-d space.
 All my projects make use of only *GLUT*.
 You won't need any other external libraries such as GLM, everything required is implemented from scratch.
 
