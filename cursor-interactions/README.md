@@ -21,3 +21,16 @@ Apart from cursor interactions, I implemented rotation and scaling of the object
 
 Here's a small demo:\
 <img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/cursor-interactions/images/cursor-interactions.gif" alt = "cursor-interactions.gif" height = "500">
+
+<details>
+    <summary><b>Camera Controls</b></summary>
+    <p>
+        In all of these projects, the camera position can be adjusted using the following keys:<br>
+        <b>W</b> - to move the camera forwards.<br>
+        <b>S</b> - to move the camera backwards.<br>
+        <b>A</b> - to move the camera clockwise around subject.<br>
+        <b>D</b> - to move the camera counterclockwise around subject.<br>
+        <b>I</b> - to move the camera up.<br>
+        <b>K</b> - to move the camera down.
+    </p>
+</details>
