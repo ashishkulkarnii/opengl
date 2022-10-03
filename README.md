@@ -91,5 +91,5 @@ Apart from cursor interactions, I implemented rotation and scaling of the object
 * Pressing ```Q``` and ```E``` rotates the object in opposite directions about a random axis passing throught the centroid of the object.
 * Using ```+``` and ```-``` scales the objects.
 
-Here's a small demo:
+Here's a small demo:\
 <img src = "https://raw.githubusercontent.com/ashishkulkarnii/opengl/main/cursor-interactions/images/cursor-interactions.gif" alt = "cursor-interactions.gif" height = "500">
