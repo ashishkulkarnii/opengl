@@ -5,7 +5,7 @@ It starts with basic 2-d projects, such as the Sierpinski triangle, or building 
 All my projects make use of only *GLUT*.
 You won't need any other external libraries such as GLM, everything required is implemented from scratch.
 
-To start working with OpenGL on Windows using Visual Studio, follow [this tutorial on GeeksforGeeks](https://www.geeksforgeeks.org/how-to-setup-opengl-with-visual-studio-2019-on-windows-10/).
+To start working with GLUT on Windows using Visual Studio, follow [this tutorial on GeeksforGeeks](https://www.geeksforgeeks.org/how-to-setup-opengl-with-visual-studio-2019-on-windows-10/).
 
 ## 2-d projects
 
