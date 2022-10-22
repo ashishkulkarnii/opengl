@@ -11,7 +11,7 @@ To start working with GLUT on Windows using Visual Studio, follow [this tutorial
 
 ### [Sierpinski Triangle](https://github.com/ashishkulkarnii/opengl/tree/main/sierpinski-triangle)
 
-The Sierpinski Triangle is a triangular pattern that can be formed algorithmically.
+The Sierpinski Triangle is a triangular fractal that can be formed algorithmically.
 Here, I'm using the chaos game approach to generate the Sierpinski Triangle:
 
 1. A point is chosen (at random) within a triangular region (bounded by 3 vertices).
