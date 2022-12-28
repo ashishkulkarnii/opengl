@@ -107,15 +107,14 @@ void display() {
             s.pop();
             a = s.top();
             s.pop();
+            s.push(a);
             if (orientation(a, b, c)) {
-                s.push(a);
                 s.push(b);
                 s.push(c);
                 s.push(points[i]);
                 i++;
             }
             else {
-                s.push(a);
                 s.push(c);
             }
         }
@@ -123,9 +122,8 @@ void display() {
     s.pop();
  
     glEnd();
-    glBegin(GL_LINES);
+    glBegin(GL_LINE_LOOP);
     
-    Point first = s.top();
     glColor3f(1.000, 1.000, 0.000); // yellow
     while (!s.empty()) {
         printPoint(s.top());
@@ -133,7 +131,6 @@ void display() {
         if(!s.empty())
             printPoint(s.top());
     }
-    printPoint(first);
 
     glEnd();
     glFlush();	// flush drawing routines to the window
@@ -162,4 +159,3 @@ int main(int argc, char* argv[])
     // tell GLUT to wait for events
     glutMainLoop();
 }
-
