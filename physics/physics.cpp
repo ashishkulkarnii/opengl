@@ -247,19 +247,30 @@ Thing randomMotion(Thing t) {
 tuple<Thing, Thing> handleCollision(Thing t1, Thing t2) { // handling collisions between objects
 	float n = dist(t1.x, t1.y, t1.z, t2.x, t2.y, t2.z);
 	if (n < (float)(t1.size + t2.size)) {
-		float temp;
+		if (t2.paused) {
+			t1.vx = -t1.vx;
+			t1.vy = -t1.vy;
+			t1.vz = -t1.vz;
+		}
+		else if (t1.paused) {
+			t2.vx = -t2.vx;
+			t2.vy = -t2.vy;
+			t2.vz = -t2.vz;
+		}
+		else {
+			float temp;
 
-		temp = t1.vx;
-		t1.vx = t2.vx;
-		t2.vx = temp;
+			temp = t1.vx;
+			t1.vx = t2.vx;
+			t2.vx = temp;
 
-		temp = t1.vy;
-		t1.vy = t2.vy;
-		t2.vy = temp;
+			temp = t1.vy;
+			t1.vy = t2.vy;
+			t2.vy = temp;
 
-		temp = t1.vz;
-		t1.vz = t2.vz;
-		t2.vz = temp;
+			temp = t1.vz;
+			t1.vz = t2.vz;
+			t2.vz = temp;
 	}
 	return make_tuple(t1, t2);
 }
